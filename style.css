@@ -1,0 +1,39 @@
+.container {
+  background: #1e1e1e;
+  color: #00ff99;
+  font-size: 4rem;
+  font-weight: bold;
+  padding: 20px 50px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 255, 153, 0.5);
+  margin-bottom: 30px;
+  min-width: 200px;
+  text-align: center;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttons button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: red;
+  color: #1e1e1e;
+  transition: all 0.2s ease-in-out;
+}
+
+.buttons button:hover {
+  background: #00cc7a;
+  transform: scale(1.05);
+}
+
